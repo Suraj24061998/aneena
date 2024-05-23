@@ -1,0 +1,28 @@
+.progress {
+    height: 4px;
+    
+}
+.skill-head{
+    color: white;
+    text-align: center;
+}
+
+.skill-text{
+    color: white;
+}
+.skill-p-text{
+    display: flex;
+}
+p.s-t-2 {
+    width: 50%;
+    text-align: end;
+}
+p.s-t-1 {
+    width: 50%;
+    text-align: start;
+}
+.skill-main {
+    width: 64%;
+    margin-left: 18%;
+   
+}

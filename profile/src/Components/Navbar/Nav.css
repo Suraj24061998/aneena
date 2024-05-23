@@ -1,0 +1,120 @@
+
+a.nav-link {
+  color: #ffff;
+  font-size: 20px;
+  font-weight: 400;
+}
+a.nav-link:hover {
+ border-bottom:1px solid #eeb137;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+@media only screen 
+  and (min-device-width: 210px) 
+  and (max-device-width:320px)
+{
+  button.navbar-toggler {
+    float: right;
+}
+
+ nav#ftco-navbar {
+    display: block;
+    padding: 5%;
+}
+div#ftco-nav {
+  padding: 8%;
+}
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+{
+  button.navbar-toggler {
+    float: right;
+}
+ nav#ftco-navbar {
+    display: flex !important;
+    padding: 5%;
+}
+a.navbar-brand img {
+  width: 92% !important;
+  display: grid;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  justify-content: center;
+  justify-items: center;
+}
+div#ftco-nav {
+  padding: 8%;
+}
+}
+@media only screen 
+  and (min-device-width:480px) 
+  and (max-device-width:620px)
+{
+  button.navbar-toggler {
+    float: right;
+}
+ nav#ftco-navbar {
+    display: block;
+    padding: 5%;
+}
+div#ftco-nav {
+  padding: 8%;
+}
+}
+@media only screen 
+  and (min-device-width:620px) 
+  and (max-device-width:720px)
+  {nav#ftco-navbar {
+    display: block;
+}
+  }
+@media only screen 
+  and (min-device-width:720px) 
+  and (max-device-width:820px)
+  {
+
+ 
+ 
+}
+@media only screen 
+  and (min-device-width:820px) 
+  and (max-device-width:1200px)
+  {
+
+
+
+    nav#ftco-navbar {
+      display: block;
+  }
+
+}
+a.navbar-brand {
+  width: 30%;
+
+}
+div#ftco-nav {
+  width: 70%;
+  justify-content: center;
+}
+a.navbar-brand {
+  width: 27%;
+  display: grid;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  justify-content: center;
+  justify-items: center;
+}
+a.navbar-brand img{
+  width: 27%;
+  display: grid;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  justify-content: center;
+  justify-items: center;
+}

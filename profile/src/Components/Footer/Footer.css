@@ -1,0 +1,56 @@
+.log-img {
+    width: 50%;
+    
+}
+ul.quick-content {
+    display: block;
+    text-decoration: none;
+}
+.link1{
+    color: white;
+    font-size: 100%;
+}
+
+li.link1 a {
+    text-decoration: none;
+    color: #fff;
+    margin-top: 35%;
+}
+ul.quick-content li {
+    margin-top: 3%;
+    width: calc(10% -2px);
+    display: inline-block;
+    width: 34%;
+   
+}
+.p-6 {
+    padding: 6rem!important;
+}
+.quik-text{
+    color: white;
+    margin-top: 10%;
+}
+.c-text{
+    color: white;
+    margin-top: 8%;
+}
+.link1 a:hover{
+
+    padding: 5%;
+}
+.link1 a::before {
+    color: red;
+}
+.icon{
+    color: white;
+    padding-top: 4%;
+  font-size: larger;
+}
+.i-text {
+    margin-left: 7%;
+    margin-top: -8%;
+}
+a {
+    color: rgb(235 238 243);
+    text-decoration: unset;
+}
