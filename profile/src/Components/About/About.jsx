@@ -15,7 +15,7 @@ function About() {
               <img src={img} alt="" className="ab-img" />
             </div>
             <div className="col-lg-6">
-              <p className="ab-text"data-aos="fade-left">
+              <p className="ab-text">
               I'm a professional Graphic Designer & Illustrator with more than 2+ years of experience.
                I’d love to try something new for my projects.
               </p>

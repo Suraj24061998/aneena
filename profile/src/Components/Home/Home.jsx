@@ -8,6 +8,8 @@ import Resume from '../Resume/Resume';
 import Service from '../Services/Service';
 import Skil from '../Skills/Skil';
 import Gallery from '../Gallery/Gallery';
+import Port from '../portfolio/Port';
+
 
 
 function Home() {
@@ -42,6 +44,8 @@ function Home() {
       <Service/>
       <Skil/>
       <Gallery/>
+     
+     
       
      
     </div>

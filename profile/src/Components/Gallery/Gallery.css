@@ -47,6 +47,11 @@
 	position:relative;
 	top:1px;
 }
+@media (max-width: 768px) {
+    .grid-item {
+      width: calc(50% - 20px); /* Adjust width of grid items for smaller screens */
+    }
+  }
 
    
 

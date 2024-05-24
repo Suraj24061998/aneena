@@ -34,3 +34,22 @@ img.s-img {
 .serv-t{
     color: white;
 }
+
+@media (max-width: 768px) {
+    .service-box {
+      margin-bottom: 20px; /* Add margin-bottom for better spacing on mobile */
+    }
+  
+    .service-text {
+      position: static; /* Remove absolute positioning for mobile */
+      transform: none; /* Reset transform */
+      text-align: center; /* Center align text on mobile */
+      margin-top: 10px; /* Add margin-top for spacing */
+    }
+  
+    .serv-t {
+      font-size: 16px; /* Reduce font size for mobile */
+    }
+  }
+
+  

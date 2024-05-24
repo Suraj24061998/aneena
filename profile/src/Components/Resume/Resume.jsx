@@ -64,7 +64,7 @@ function Resume() {
                 </span>
               </div>
             </div>
-            <div className="timeline-content"data-aos="fade-left">
+            <div className="timeline-content">
               <h5 className="title">{experience.title}</h5>
               <p className="description">{experience.description}
               <ul className='ul-title'>

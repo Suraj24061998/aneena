@@ -10,6 +10,7 @@ import Service from './Components/Services/Service';
 import Gallery from './Components/Gallery/Gallery';
 import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
+import Foot from './Components/Foot/Foot';
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
       <Route path='/contact' element={<Contact/>}/>
       <Route path= '/skills' element={<Skil/>}/>
      </Routes>
-     <Footer/>
+     {/* <Footer/> */}
+     <Foot/>
      </BrowserRouter>
     </div>
   );

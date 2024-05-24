@@ -5,7 +5,7 @@
 .ab-text {
     color: white;
     margin-top: 24%;
-    width: 80%;
+    width: 100%;
     font-size: 171%;
 }
 img.ab-img {
@@ -13,3 +13,72 @@ img.ab-img {
     width: 70%;
     margin-top: 12%;
 }
+@media (max-width: 768px) {
+    .col-lg-6 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  
+    .ab-text {
+      text-align: center;
+      padding: 0 10px;
+      width: 20%;
+    }
+  }
+  .about-main {
+    padding: 20px;
+  }
+  
+  .ab-head h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+  }
+  
+  .col-lg-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 15px;
+    box-sizing: border-box;
+  }
+  
+  .ab-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+  @media (max-width: 768px) {
+    .col-lg-6 {
+      flex: 0 0 100%;
+      max-width: 100%;
+      text-align: center; /* Center align text on mobile */
+      padding: 0 10px; /* Add some padding for better readability */
+      box-sizing: border-box;
+    }
+  
+    .ab-text {
+      font-size: 14px; /* Adjust font size for smaller screens */
+      line-height: 1.4; /* Adjust line height for readability */
+      margin: 15px 0; /* Adjust margins for better spacing */
+      display: flex;
+      width: auto;
+      
+    }
+  }
+  /* [data-aos^=fade][data-aos^=fade].aos-animate  {
+    opacity: 1;
+    transform: translateZ(0);
+    width: auto;
+} */
+  
