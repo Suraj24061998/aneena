@@ -58,9 +58,10 @@ img.ab-img {
     height: auto;
     display: block;
     margin: 0 auto;
-    background-image: url(../Images/aneena3.jpg);
+    background-image: url(../Images/aneena.jpg);
     background-size: cover; 
   min-height: 450px;
+ 
   background-repeat: no-repeat;
     
   }

@@ -1,7 +1,13 @@
-import React, {} from 'react'
+import React, {useEffect} from 'react'
 import './Skil.css'
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Skil() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
    
     const skills = [
         { name: 'Phoroshop', percent: '100%' },
@@ -19,7 +25,7 @@ function Skil() {
         <div className="row">
           {skills.map((skill, index) => (
             <div key={index} className="col-lg-6 mt-3">
-              <div className="skill-main"data-aos="flip-down">
+              <div className="skill-main"data-aos="flip-down"data-aos-duration="2000">
                 <div className="skill-text">
                   <div className="skill-p-text">
                     <p className="s-t-1">{skill.name}</p>

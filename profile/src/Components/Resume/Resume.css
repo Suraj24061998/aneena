@@ -67,6 +67,15 @@
     right: 0
 }
 
+.r-b-t-n{
+    text-align: center;
+}
+.btn-warning
+{
+    background-color: #eeb137;
+}
+
+
 .main-timeline .icon:before,
 .main-timeline .icon:after {
     content: "";

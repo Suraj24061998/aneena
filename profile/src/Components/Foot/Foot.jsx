@@ -19,6 +19,8 @@ function Foot() {
     const socialMediaLinks = [
         { href: 'https://www.behance.net/3dc06e60', iconClass: 'bi bi-behance' },
         { href: 'https://in.pinterest.com/4neenaj/_created/', iconClass: 'bi bi-pinterest' },
+        { href: 'https://www.linkedin.com/in/aneena-j-graphic-designer-93696b286/', iconClass: 'bi bi-linkedin' },
+        
       ];
   return (
     <div>

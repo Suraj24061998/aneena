@@ -1,0 +1,12 @@
+.c-v-img{
+    width: 50%;
+    text-align: center;
+}
+.cv-image {
+    display: grid;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    justify-content: center;
+    justify-items: center;
+}

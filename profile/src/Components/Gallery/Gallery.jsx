@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { } from 'react';
 import './Gallery.css';
 import brand1 from '../Images/gallery1.jpg';
 import brand2 from '../Images/gallery2.jpg';
@@ -26,13 +26,13 @@ function Gallery() {
       <div className="grid">
         {slider1.map((data) => (
           <div className="grid-item">
-            <img src={data.img}  />
+            <img src={data.img} />
           </div>
         ))}
       </div>
       <div className="g-btn">
-      <button type="button" class="btn btn-warning">
-     <Link to="https://in.pinterest.com/4neenaj/_created/"> More <i class="bi bi-pinterest"></i></Link>
+        <button type="button" class="btn btn-warning">
+          <Link to="https://in.pinterest.com/4neenaj/_created/"> More <i class="bi bi-pinterest"></i></Link>
         </button>
       </div>
     </div>
