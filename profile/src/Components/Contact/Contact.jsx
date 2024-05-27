@@ -15,7 +15,7 @@ function Contact() {
                 <Link to="https://www.behance.net/3dc06e60">  behance <i class="bi bi-behance"></i></Link>
               </button>
               <button type="button" class="btn btn-warning">
-                <Link to='https://www.linkedin.com/in/aneena-j-graphic-designer-93696b286/'> Linkedin <i class="bi bi-linkedin"></i></Link>
+                <Link to='https://www.linkedin.com/in/aneena-j-93696b286/'> Linkedin <i class="bi bi-linkedin"></i></Link>
               </button>
             </ul>
           </div>
