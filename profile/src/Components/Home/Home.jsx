@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import './Home.css'
-import img from '../Images/h2.jpg'
+import img from '../Images/aneena.jpg'
 import About from '../About/About'
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -31,7 +31,7 @@ function Home() {
             </div>
             <div className="col-lg-5">
             <div className="home-img">
-            <img src={img} alt="" className='h-img' />
+            {/* <img src={img} alt="" className='h-img' /> */}
         </div>
             </div>
           </div>

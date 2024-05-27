@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function Foot() {
     const contact=[
-        {icon:'fa fa-phone', text: '91 7736677162',link:'7736677162' },
+        {icon:'fa fa-phone', text: '91 7736677162' },
         {icon:'fa fa-envelope', text: 'aneenaj09@gmail.com',link:'mailto:aneenaj09@gmail.com' },   
     ]
     const quickLinks = [

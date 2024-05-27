@@ -19,8 +19,16 @@
 }
 .h-img{
     width: 100%;
+    
 }
-
+.home-img{
+  background-image: url(../Images/aneena.jpg);
+  background-size: cover; 
+  width: 100%; 
+  min-height: 450px;
+  background-repeat: no-repeat;
+  display: block;
+}
   
   /* Mobile styles */
   @media (max-width: 768px) {

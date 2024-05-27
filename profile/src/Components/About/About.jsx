@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import img from'../Images/h2.jpg'
+import img from'../Images/aneena3.jpg'
 
 function About() {
   return (
@@ -12,7 +12,9 @@ function About() {
         <div className="container">
           <div className="row">
             <div className="col-lg-6">
-              <img src={img} alt="" className="ab-img" />
+              {/* <img src={img} alt="" className="ab-img" /> */}
+              <div className="ab-img"></div>
+             
             </div>
             <div className="col-lg-6">
               <p className="ab-text">
