@@ -25,7 +25,10 @@ function Nav() {
       <div className="container">
         <div className="row">
         <nav className="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
-        <Link className="navbar-brand" to="/"><img src={logo} alt="Logo" /></Link>
+        {/* <Link className="navbar-brand" to="/"><img src={logo} alt="Logo"/></Link> */}
+        <div className="navbar-brand">
+          <img src={logo} alt="" className='logo-img'/>
+        </div>
         <button className="navbar-toggler" type="button" onClick={toggleNav}>
           <span className="navbar-toggler-icon"></span>
         </button>
