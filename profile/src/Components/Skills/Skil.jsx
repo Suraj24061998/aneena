@@ -17,7 +17,7 @@ function Skil() {
         { name: 'After Effect', percent: '70%' },
       ];
   return (
-    <div>
+    <div className='main-skills'>
          <div className="skill-head">
             <h1>MY Skills</h1>
         </div>

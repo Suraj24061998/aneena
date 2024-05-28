@@ -3,7 +3,7 @@ import '../Contact/Contact.css'
 import { Link } from 'react-router-dom';
 function Contact() {
   return (
-    <div>
+    <div className='main-c'>
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">

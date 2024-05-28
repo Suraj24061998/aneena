@@ -225,6 +225,7 @@ a.navbar-brand img{
 
   .nav-item {
     text-align: center;
+    justify-content: center;
   }
 
   .nav-link {
