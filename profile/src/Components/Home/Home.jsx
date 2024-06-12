@@ -8,6 +8,7 @@ import Service from '../Services/Service';
 import Skil from '../Skills/Skil';
 import Gallery from '../Gallery/Gallery';
 
+
 function Home() {
   useEffect(() => {
     AOS.init();

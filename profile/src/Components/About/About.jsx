@@ -18,8 +18,8 @@ function About() {
             </div>
             <div className="col-lg-6">
               <p className="ab-text">
-              I'm a professional Graphic Designer & Illustrator with more than 2+ years of experience.
-               I’d love to try something new for my projects.
+              Creative and detail-oriented graphic designer with 2+ years of experience in branding, print, and digital design. 
+              Proven ability to deliver high-quality design solutions that meet client objectives.
               </p>
             </div>
           </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Cv.css'
-import img from '../Images/cv.jpg'
+import img from '../Images/cv1.jpg'
 
 function Cv() {
     return (
