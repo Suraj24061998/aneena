@@ -47,9 +47,13 @@
     margin-top: 5px;
   }
   
-  .contact-details {
+  /* .contact-details {
     margin-top: 20px;
+  } */
+  .contact-li {
+    padding-left: 0rem;
   }
+ 
   
   .contact-details li {
     list-style: none;

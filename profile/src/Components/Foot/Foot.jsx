@@ -7,15 +7,15 @@ function Foot() {
         {icon:'fa fa-phone', text: '91 7736677162' },
         {icon:'fa fa-envelope', text: 'aneenaj09@gmail.com',link:'mailto:aneenaj09@gmail.com' },   
     ]
-    const quickLinks = [
-        { title: 'Home', path: '/home' },
-        { title: 'About', path: '/about' },
-        { title: 'Resume', path: '/resume' },
-        { title: 'Service', path: '/service'},
-        { title: 'Skills', path: '/skills' },
-        { title: 'Project', path: '/project' },
-        { title: 'Contact', path: '/contact' },
-    ]
+    // const quickLinks = [
+    //     { title: 'Home', path: '/home' },
+    //     { title: 'About', path: '/about' },
+    //     { title: 'Resume', path: '/resume' },
+    //     { title: 'Service', path: '/service'},
+    //     { title: 'Skills', path: '/skills' },
+    //     { title: 'Project', path: '/project' },
+    //     { title: 'Contact', path: '/contact' },
+    // ]
     const socialMediaLinks = [
         { href: 'https://www.behance.net/3dc06e60', iconClass: 'bi bi-behance' },
         { href: 'https://in.pinterest.com/4neenaj/_created/', iconClass: 'bi bi-pinterest' },
@@ -28,7 +28,8 @@ function Foot() {
         <div className="logoinfo">
           <div className="contact-details">
             <h1>Contact Us</h1>
-            <ul>
+            <div >
+            <ul className="contact-li">
               {contact.map((contact, index) => (
                 <li key={index}>
                   <div className={contact.icon}></div>
@@ -36,9 +37,11 @@ function Foot() {
                 </li>
               ))}
             </ul>
+            </div>
+            
           </div>
         </div>
-        <div className="com">
+        {/* <div className="com">
           <h1>Quick Links</h1>
           <ul>
             {quickLinks.map((link, index) => (
@@ -47,7 +50,7 @@ function Foot() {
               </li>
             ))}
           </ul>
-        </div>
+        </div> */}
         <div className="info">
           <h1>Social Media</h1>
           <div className="sociallogos">
