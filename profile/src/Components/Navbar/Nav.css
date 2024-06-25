@@ -200,6 +200,7 @@ a.navbar-brand img{
 
 .nav-item {
   list-style: none;
+  gap: 5%;
 }
 
 .nav-link {

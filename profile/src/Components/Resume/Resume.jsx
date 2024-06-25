@@ -15,25 +15,25 @@ function Resume() {
       duration: 'present',
       title: 'Graphic Designer',
       description: 'A2z Alphabet Solutionz',
-      title1: 'Conceptualizing visuals based on requirements and what clients needed',
-      title2: 'Create design and layouts by hand or use design software according to aesthetic values',
-      title3: 'Brifieng and meeting with clients'
+      title1: 'Designed print and digital materials for various clients, including brochures, posters, and website graphics',
+      title2: 'Improved client satisfaction by implementing a more client-focused design process.',
+      title3: 'Assisted in the redesign of the company’s website, enhancing the user experience and visual appeal.'
     },
     {
-      year: '2023-2024',
-      duration: '1 Years',
+      year: '2023',
+      duration: '6 months',
       title: 'Graphic Designer',
       description: 'GSSHR Foreign Education & co',
-      title1: 'Conceptualizing visuals based on requirements and what clients needed',
-      title2: 'Create design and layouts by hand or use design software according to aesthetic values',
-      title3: 'Brifieng and meeting with clients'
+      title1: 'Additional Training Period (February 2024 - March 2024)',
+      title2: 'Conceptualizing visuals based on requirements and what clients needed ,Improved client satisfaction by implementing a more client-focused design process.',
+      title3: 'Assisted in the redesign of the company’s website, enhancing the user experience and visual appeal.'
     },
     {
       year: '2022-2023',
       duration: '1 Years',
       title: 'Video Editor',
       description: 'GCC Wedding co',
-      title1: 'Conceptualizing visuals based on requirements and what clients needed',
+      title1: 'Led the design team on multiple projects, creating brand identities, marketing materials, and digital assets.',
       title2: 'Create design and layouts by hand or use design software according to aesthetic values',
       title3: 'Brifieng and meeting with clients'
     },
